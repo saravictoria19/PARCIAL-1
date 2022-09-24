@@ -1,0 +1,192 @@
+.main .title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    top: calc(80vh - 50%);
+    left: 50%;
+    position: absolute;
+    margin-left: -150px;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a {
+    
+    font: Arial, Helvetica, sans-serif 120% cursive;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover {
+    background-color:black;
+    color: rgb(0, 195, 255);
+    }
+
+    .title{
+        font-size: 120%;
+        text-align: center;
+        color: rgb(0, 0, 0)
+        }
+
+        
+    .logo {
+        width: 200px;
+        height: 100px;      
+    }
+
+           
+    .logocar {
+        padding: 10px;
+        margin: 10px; 
+        border: 2px solid black;
+        float: left; 
+        width: 100px;
+        height: 100px;
+        }
+        .menu{
+            margin-top: 15px;
+        }
+
+        .cars_tit{
+           margin-left: 20px;
+        }
+
+        footer{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .pie-pagina{
+            width: 100%;
+            background-color: #0F0F0D;
+        }
+        
+        .pie-pagina .grupo-1{
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-gap: 50px;
+            padding: 45px 0px;
+        }
+        
+        
+        .pie-pagina .grupo-1 .box figure img{
+            width: 150px;
+        }
+        
+        .pie-pagina .grupo-1 .box h2{
+            color: white;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+        
+        .pie-pagina .grupo-1 .box p{
+            color: #80C8B5;
+        
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .pie-pagina .red-social{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        
+        .pie-pagina .red-social .i-insta{
+            margin-right: 25px;
+            height: 50px;
+            width: 50px;
+        }
+        
+        .pie-pagina .red-social .i-face{
+            margin-right: 25px;
+            height: 50px;
+            width: 50px;
+        }
+        
+        .pie-pagina .red-social .i-whats{
+            height: 50px;
+            width: 50px;
+        }
+        
+        .pie-pagina .grupo-2{
+            background-color: #1d1d19;
+            padding: 15px 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        .encabezado {
+            width: 100%;
+            max-width: 1700px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 25px 0px;
+        }
+        
+        .encabezado .box1 h1{
+            font-size: 50px;
+            color: #4DB788;
+        }
+        
+        .encabezado .box1 h3{
+            font-size: 25px;
+            color: #0F0F0D;
+        }
+        
+        .encabezado .box1 img{
+            margin-left: 25px;
+            margin-top: 20px;
+            height: 200px;
+        }
+        
+        .pie-pagina .formulario{
+            width: 1000px;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 50px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .pie-pagina .formulario .contact{
+            color: #4DB788;
+            margin-left: 400px;
+        }
+        
+        
+        .pie-pagina .formulario .input{
+          display: flex;
+          margin-top: 10px;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        ::placeholder{
+            color: #0F0F0D;
+        }
+
+
+      
